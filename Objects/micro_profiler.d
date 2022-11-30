@@ -1,0 +1,25 @@
+./objects/micro_profiler.o: \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_profiler.cc \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_profiler.h \
+  Packages\tflite_micro\tensorflow\lite\micro\compatibility.h \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_profiler_interface.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cinttypes \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstring \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\compatibility.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\op_macros.h \
+  Packages\tflite_micro\tensorflow\lite\micro\debug_log.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_log.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdarg \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_time.h

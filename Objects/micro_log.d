@@ -1,0 +1,23 @@
+./objects/micro_log.o: \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_log.cc \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_log.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdarg \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\new \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__availability \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstddef \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\version \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__nullptr \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\exception \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__memory\addressof.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
+  Packages\tflite_micro\tensorflow\lite\micro\debug_log.h \
+  Packages\tflite_micro\tensorflow\lite\micro\micro_string.h
