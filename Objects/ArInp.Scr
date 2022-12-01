@@ -94,6 +94,7 @@
 .\objects\quantization_util.o
 .\objects\portable_tensor_utils.o
 .\objects\tensor_utils_1.o
+.\objects\portable_tensor_utils_1.o
 .\objects\all_ops_resolver.o
 .\objects\debug_log.o
 .\objects\fake_micro_context.o
@@ -202,6 +203,12 @@
 .\objects\softmax_common.o
 .\objects\sub_common.o
 .\objects\svdf_common.o
+.\objects\add_n.o
+.\objects\concatenation.o
+.\objects\comparisons.o
+.\objects\transpose_conv.o
+.\objects\prelu_common.o
+.\objects\mul_common.o
 .\objects\add.o
 .\objects\conv.o
 .\objects\depthwise_conv.o
@@ -220,4 +227,3 @@
 .\objects\recording_single_arena_buffer_allocator.o
 .\objects\single_arena_buffer_allocator.o
 .\objects\main_functions.o
-.\objects\portable_tensor_utils_1.o

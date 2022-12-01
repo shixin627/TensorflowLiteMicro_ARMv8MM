@@ -882,6 +882,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>tensorflow/lite/kernels/internel/reference</GroupName>
+          <Files>
+            <File>
+              <FileName>portable_tensor_utils.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\reference\portable_tensor_utils.cc</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>tensorflow/lite/micro</GroupName>
           <Files>
             <File>
@@ -1485,6 +1495,36 @@
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\svdf_common.cc</FilePath>
             </File>
+            <File>
+              <FileName>add_n.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\add_n.cc</FilePath>
+            </File>
+            <File>
+              <FileName>concatenation.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\concatenation.cc</FilePath>
+            </File>
+            <File>
+              <FileName>comparisons.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\comparisons.cc</FilePath>
+            </File>
+            <File>
+              <FileName>transpose_conv.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\transpose_conv.cc</FilePath>
+            </File>
+            <File>
+              <FileName>prelu_common.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\prelu_common.cc</FilePath>
+            </File>
+            <File>
+              <FileName>mul_common.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\mul_common.cc</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1711,16 +1751,6 @@
               <FileName>main_functions.cc</FileName>
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\main_functions.cc</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>tensorflow/lite/kernels/internel/reference</GroupName>
-          <Files>
-            <File>
-              <FileName>portable_tensor_utils.cc</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\reference\portable_tensor_utils.cc</FilePath>
             </File>
           </Files>
         </Group>

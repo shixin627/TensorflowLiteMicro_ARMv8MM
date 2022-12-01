@@ -402,6 +402,7 @@
   Packages\tflite_micro\tensorflow\lite\micro\micro_profiler_interface.h \
   Packages\tflite_micro\tensorflow\lite\portable_type_to_tflitetype.h \
   Packages\tflite_micro\tensorflow\lite\micro\micro_log.h \
+  Packages\tflite_micro\tensorflow\lite\micro\all_ops_resolver.h \
   Packages\tflite_micro\tensorflow\lite\micro\micro_mutable_op_resolver.h \
   Packages\tflite_micro\tensorflow\lite\micro\kernels\add.h \
   Packages\tflite_micro\tensorflow\lite\c\builtin_op_data.h \
