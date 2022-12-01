@@ -1,0 +1,32 @@
+./objects/recording_single_arena_buffer_allocator.o: \
+  Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\recording_single_arena_buffer_allocator.cc \
+  Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\recording_single_arena_buffer_allocator.h \
+  Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\single_arena_buffer_allocator.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstddef \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\version \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__nullptr \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  Packages\tflite_micro\tensorflow\lite\c\common.h \
+  Packages\tflite_micro\tensorflow\lite\core\c\common.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
+  Packages\tflite_micro\tensorflow\lite\core\c\c_api_types.h \
+  Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\ibuffer_allocator.h \
+  Packages\tflite_micro\tensorflow\lite\c\c_api_types.h \
+  Packages\tflite_micro\tensorflow\lite\micro\compatibility.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\new \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__availability \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\exception \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__memory\addressof.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\compatibility.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\op_macros.h \
+  Packages\tflite_micro\tensorflow\lite\micro\debug_log.h

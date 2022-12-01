@@ -18,6 +18,4 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\exception \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__memory\addressof.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
-  Packages\tflite_micro\tensorflow\lite\micro\debug_log.h \
-  Packages\tflite_micro\tensorflow\lite\micro\micro_string.h
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits

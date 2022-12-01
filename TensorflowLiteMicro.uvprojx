@@ -338,7 +338,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>CMSIS_NN</Define>
+              <Define>CMSIS_NN TF_LITE_STRIP_ERROR_STRINGS</Define>
               <Undefine></Undefine>
               <IncludePath>.\Packages\tflite_micro\tensorflow\lite\micro\tools\make\downloads\flatbuffers\include;.\Packages\tflite_micro\tensorflow\lite\micro\tools\make\downloads\gemmlowp;.\Packages\tflite_micro\tensorflow\lite\micro\tools\make\downloads\kissfft;.\Packages\tflite_micro\tensorflow\lite\micro\tools\make\downloads\ruy;.\Packages\tflite_micro\tensorflow\lite\micro\tools\cmsis\CMSIS\DSP\Include;.\Packages\tflite_micro\tensorflow\lite\micro\tools\cmsis\CMSIS\NN\Include;.\Packages\tflite_micro\tensorflow\lite\micro\tools\cmsis\CMSIS\NN;.\Packages\tflite_micro</IncludePath>
             </VariousControls>
@@ -382,7 +382,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>CMSIS/NN/Source</GroupName>
+          <GroupName>CMSIS/NN</GroupName>
           <Files>
             <File>
               <FileName>arm_nn_activations_q7.c</FileName>
@@ -864,6 +864,21 @@
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\kernel_util.cc</FilePath>
             </File>
+            <File>
+              <FileName>quantization_util.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\quantization_util.cc</FilePath>
+            </File>
+            <File>
+              <FileName>portable_tensor_utils.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\portable_tensor_utils.cc</FilePath>
+            </File>
+            <File>
+              <FileName>tensor_utils.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\tensor_utils.cc</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1313,6 +1328,57 @@
               <FileName>unidirectional_sequence_lstm_test_config.cc</FileName>
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\kernels\unidirectional_sequence_lstm_test_config.cc</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>0</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>1</ComprImg>
+                </CommonProperty>
+                <FileArmAds>
+                  <Cads>
+                    <interw>2</interw>
+                    <Optim>0</Optim>
+                    <oTime>2</oTime>
+                    <SplitLS>2</SplitLS>
+                    <OneElfS>2</OneElfS>
+                    <Strict>2</Strict>
+                    <EnumInt>2</EnumInt>
+                    <PlainCh>2</PlainCh>
+                    <Ropi>2</Ropi>
+                    <Rwpi>2</Rwpi>
+                    <wLevel>0</wLevel>
+                    <uThumb>2</uThumb>
+                    <uSurpInc>2</uSurpInc>
+                    <uC99>2</uC99>
+                    <uGnu>2</uGnu>
+                    <useXO>2</useXO>
+                    <v6Lang>0</v6Lang>
+                    <v6LangP>0</v6LangP>
+                    <vShortEn>2</vShortEn>
+                    <vShortWch>2</vShortWch>
+                    <v6Lto>2</v6Lto>
+                    <v6WtE>2</v6WtE>
+                    <v6Rtti>2</v6Rtti>
+                    <VariousControls>
+                      <MiscControls></MiscControls>
+                      <Define></Define>
+                      <Undefine></Undefine>
+                      <IncludePath></IncludePath>
+                    </VariousControls>
+                  </Cads>
+                </FileArmAds>
+              </FileOption>
             </File>
             <File>
               <FileName>unpack.cc</FileName>
@@ -1550,6 +1616,36 @@
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\tflite_bridge\flatbuffer_conversions_bridge.cc</FilePath>
             </File>
+            <File>
+              <FileName>micro_error_reporter.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\tflite_bridge\micro_error_reporter.cc</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>tensorflow/lite/micro/arena_allocator</GroupName>
+          <Files>
+            <File>
+              <FileName>non_persistent_arena_buffer_allocator.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\non_persistent_arena_buffer_allocator.cc</FilePath>
+            </File>
+            <File>
+              <FileName>persistent_arena_buffer_allocator.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\persistent_arena_buffer_allocator.cc</FilePath>
+            </File>
+            <File>
+              <FileName>recording_single_arena_buffer_allocator.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\recording_single_arena_buffer_allocator.cc</FilePath>
+            </File>
+            <File>
+              <FileName>single_arena_buffer_allocator.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\arena_allocator\single_arena_buffer_allocator.cc</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1559,11 +1655,72 @@
               <FileName>gesture_detect_model_data.cc</FileName>
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\gesture_detect_model_data.cc</FilePath>
+              <FileOption>
+                <CommonProperty>
+                  <UseCPPCompiler>2</UseCPPCompiler>
+                  <RVCTCodeConst>0</RVCTCodeConst>
+                  <RVCTZI>0</RVCTZI>
+                  <RVCTOtherData>0</RVCTOtherData>
+                  <ModuleSelection>0</ModuleSelection>
+                  <IncludeInBuild>0</IncludeInBuild>
+                  <AlwaysBuild>2</AlwaysBuild>
+                  <GenerateAssemblyFile>2</GenerateAssemblyFile>
+                  <AssembleAssemblyFile>2</AssembleAssemblyFile>
+                  <PublicsOnly>2</PublicsOnly>
+                  <StopOnExitCode>11</StopOnExitCode>
+                  <CustomArgument></CustomArgument>
+                  <IncludeLibraryModules></IncludeLibraryModules>
+                  <ComprImg>1</ComprImg>
+                </CommonProperty>
+                <FileArmAds>
+                  <Cads>
+                    <interw>2</interw>
+                    <Optim>0</Optim>
+                    <oTime>2</oTime>
+                    <SplitLS>2</SplitLS>
+                    <OneElfS>2</OneElfS>
+                    <Strict>2</Strict>
+                    <EnumInt>2</EnumInt>
+                    <PlainCh>2</PlainCh>
+                    <Ropi>2</Ropi>
+                    <Rwpi>2</Rwpi>
+                    <wLevel>0</wLevel>
+                    <uThumb>2</uThumb>
+                    <uSurpInc>2</uSurpInc>
+                    <uC99>2</uC99>
+                    <uGnu>2</uGnu>
+                    <useXO>2</useXO>
+                    <v6Lang>0</v6Lang>
+                    <v6LangP>0</v6LangP>
+                    <vShortEn>2</vShortEn>
+                    <vShortWch>2</vShortWch>
+                    <v6Lto>2</v6Lto>
+                    <v6WtE>2</v6WtE>
+                    <v6Rtti>2</v6Rtti>
+                    <VariousControls>
+                      <MiscControls></MiscControls>
+                      <Define></Define>
+                      <Undefine></Undefine>
+                      <IncludePath></IncludePath>
+                    </VariousControls>
+                  </Cads>
+                </FileArmAds>
+              </FileOption>
             </File>
             <File>
               <FileName>main_functions.cc</FileName>
               <FileType>8</FileType>
               <FilePath>.\Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\main_functions.cc</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>tensorflow/lite/kernels/internel/reference</GroupName>
+          <Files>
+            <File>
+              <FileName>portable_tensor_utils.cc</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Packages\tflite_micro\tensorflow\lite\kernels\internal\reference\portable_tensor_utils.cc</FilePath>
             </File>
           </Files>
         </Group>

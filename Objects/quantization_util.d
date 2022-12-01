@@ -1,26 +1,36 @@
-./objects/non_persistent_buffer_planner_shim.o: \
-  Packages\tflite_micro\tensorflow\lite\micro\memory_planner\non_persistent_buffer_planner_shim.cc \
-  Packages\tflite_micro\tensorflow\lite\micro\memory_planner\non_persistent_buffer_planner_shim.h \
-  Packages\tflite_micro\tensorflow\lite\micro\compatibility.h \
-  Packages\tflite_micro\tensorflow\lite\micro\memory_planner\memory_plan_struct.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
+./objects/quantization_util.o: \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\quantization_util.cc \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\quantization_util.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cmath \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\math.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\limits \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstddef \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\version \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__nullptr \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__undef_macros \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  Packages\tflite_micro\tensorflow\lite\micro\micro_utils.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\compatibility.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\op_macros.h \
+  Packages\tflite_micro\tensorflow\lite\micro\debug_log.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\cppmath.h \
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\types.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\algorithm \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__bits \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__undef_macros \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__debug \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\iosfwd \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__mbstate_t.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\wchar.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\wchar.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\version \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\type_traits \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstddef \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstring \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
@@ -81,17 +91,12 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__memory\uses_allocator.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\exception \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__availability \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdlib \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdlib.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\new \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\typeinfo \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdint \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\utility \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\as_const.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\auto_cast.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\cmp.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\limits \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\in_place.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\integer_sequence.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__utility\priority_tag.h \
@@ -105,9 +110,6 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__compare\weak_order.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__compare\strong_order.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__bit\bit_cast.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cmath \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\math.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__compare\compare_strong_order_fallback.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__compare\compare_three_way_result.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__compare\compare_weak_order_fallback.h \
@@ -305,12 +307,4 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__algorithm\transform.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__algorithm\unique.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\__algorithm\unique_copy.h \
-  Packages\tflite_micro\tensorflow\lite\c\common.h \
-  Packages\tflite_micro\tensorflow\lite\core\c\common.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\stdbool.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  Packages\tflite_micro\tensorflow\lite\core\c\c_api_types.h \
-  Packages\tflite_micro\tensorflow\lite\micro\memory_planner\micro_memory_planner.h \
-  Packages\tflite_micro\tensorflow\lite\micro\micro_log.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\cstdarg \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h
+  Packages\tflite_micro\tensorflow\lite\kernels\internal\runtime_shape.h

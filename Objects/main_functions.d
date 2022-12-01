@@ -415,5 +415,4 @@
   Packages\tflite_micro\tensorflow\lite\micro\kernels\reduce.h \
   Packages\tflite_micro\tensorflow\lite\micro\kernels\softmax.h \
   Packages\tflite_micro\tensorflow\lite\micro\system_setup.h \
-  Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\main_functions.h \
-  Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\gesture_detect_model_data.h
+  Packages\tflite_micro\tensorflow\lite\micro\examples\gesture_detector\main_functions.h

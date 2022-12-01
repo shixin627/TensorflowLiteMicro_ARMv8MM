@@ -91,6 +91,9 @@
 .\objects\tensor_utils.o
 .\objects\schema_utils.o
 .\objects\kernel_util.o
+.\objects\quantization_util.o
+.\objects\portable_tensor_utils.o
+.\objects\tensor_utils_1.o
 .\objects\all_ops_resolver.o
 .\objects\debug_log.o
 .\objects\fake_micro_context.o
@@ -178,7 +181,6 @@
 .\objects\tanh.o
 .\objects\transpose.o
 .\objects\unidirectional_sequence_lstm.o
-.\objects\unidirectional_sequence_lstm_test_config.o
 .\objects\unpack.o
 .\objects\var_handle.o
 .\objects\while.o
@@ -212,5 +214,10 @@
 .\objects\linear_memory_planner.o
 .\objects\op_resolver_bridge.o
 .\objects\flatbuffer_conversions_bridge.o
-.\objects\gesture_detect_model_data.o
+.\objects\micro_error_reporter.o
+.\objects\non_persistent_arena_buffer_allocator.o
+.\objects\persistent_arena_buffer_allocator.o
+.\objects\recording_single_arena_buffer_allocator.o
+.\objects\single_arena_buffer_allocator.o
 .\objects\main_functions.o
+.\objects\portable_tensor_utils_1.o
