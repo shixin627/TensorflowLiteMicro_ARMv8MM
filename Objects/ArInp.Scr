@@ -219,6 +219,7 @@
 .\objects\svdf.o
 .\objects\greedy_memory_planner.o
 .\objects\linear_memory_planner.o
+.\objects\non_persistent_buffer_planner_shim.o
 .\objects\op_resolver_bridge.o
 .\objects\flatbuffer_conversions_bridge.o
 .\objects\micro_error_reporter.o
